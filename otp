@@ -1,0 +1,10 @@
+# Program to generate random 6 digit OTP:
+
+import random
+
+def generate_otp():
+  otp = random.randint(100000,999999)
+  return otp
+
+otp = generate_otp()
+print("Your OTP is:", generate_otp())
